@@ -2,14 +2,13 @@
 
 **NeurIPS 2026 RealPDE Competition · Track 2 (LTTTA)**
 
-A streaming forecaster that adapts at test time without fine-tuning. A distilled convolutional predictor stays frozen, and every revealed target updates lightweight online calibrators in closed form. A conditional Gaussian mixture then turns the calibrated forecast into prediction intervals optimized for the interval score. **Final leaderboard:** Final-Top-10, total score **82.6271 ± 0.0280** (mean ± std over 15 official evaluations). See the [official results](https://realpdecompetition.github.io/results.html).
+This repository implements a streaming forecaster that adapts at test time without fine-tuning. A distilled convolutional predictor remains frozen, while each revealed target is used to update lightweight online calibrators in closed form. A conditional Gaussian mixture then converts the calibrated forecast into prediction intervals optimized for the interval score. Our team placed in the **top 10 in the final evaluation**. See the [official results](https://realpdecompetition.github.io/results.html).
 
 **Team:** Junru Wang and Shuhong Wang, Xi'an Jiaotong University  
 
 ## Contents
 
 - [Test-Time Adaptation via Fast Online Calibration](#test-time-adaptation-via-fast-online-calibration)
-  - [Contents](#contents)
   - [Method](#method)
   - [Results](#results)
   - [Quick start](#quick-start)
@@ -23,17 +22,17 @@ A streaming forecaster that adapts at test time without fine-tuning. A distilled
 
 ## Method
 
-- **Frozen, distilled predictor.** A width-48 convolutional student is distilled from the official CNO and replaces it at inference.
-- **Online calibration.** Each revealed target updates closed-form state: a recursive ridge regression that corrects trajectory-specific bias, moving averages of residual and energy (TKE) statistics, and a per-pixel Hedge over seven interval-width experts. Test-time adaptation is gradient-free.
+- **Distilled.** A width-48 convolutional student is distilled from the official CNO and replaces it at inference.
+- **Online calibration.** Each revealed target updates the calibration state through recursive ridge regression for trajectory-specific bias correction, moving averages of residual and energy (TKE) statistics, and pixel-wise Hedge updates over seven interval-width experts. Test-time adaptation is gradient-free.
 - **Learned calibration heads.** Compact interval, moment, energy, and temporal heads read the calibration state and refine the forecast's mean, temporal shape, and fluctuation energy.
 - **Prediction intervals.** A three-component Gaussian mixture predicts the target distribution. Interval endpoints maximize the expected score, coverage probability × exp(−width penalty), through a candidate search followed by a Newton step.
 - **Fast execution.** fp16 networks, packaged PTX kernels, and CUDA-graph replay.
 
 ## Results
 
-**Final leaderboard:** Final-Top-10, total score **82.6271 ± 0.0280**. See the [official results](https://realpdecompetition.github.io/results.html).
+**Final leaderboard:** Final-Top-10, total score **82.6271 ± 0.0280** (mean ± std over 15 official evaluations). See the [official results](https://realpdecompetition.github.io/results.html).
 
-**Development leaderboard** (Codabench submission 940980):
+**[Main Development leaderboard](https://www.codabench.org/competitions/17385/#/results-tab)** (Codabench submission 940980):
 
 | Metric | Score |
 |---|---:|
