@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "torch_version": "2.2.2",
+  "architecture": "sm80 PTX",
+  "core": "postprocessing; explicit base prediction and 53 recurrent tensors",
+  "source_sha256": {
+    "adapters.pt": "4eb9fe24ff0a34edbe16c9afc1ed21527196685584806c84b3b467afbfb7d473",
+    "flow_model/accuracy.py": "5e5497c94a5ffd2ad0056435d73cf19c3418f207f54d6bc9449935a9c8c83c1c",
+    "flow_model/calibration.py": "1515eddbad311b26401513991d031390799a23e07cd3f6172f2d65548a06701d",
+    "flow_model/canonical_interval.py": "3286a0f2425207d40f6acf88a9db11a974c954dd203e47928001184941215621",
+    "flow_model/causal_ridge.py": "a12b34bff66f7a79153c7770d8312e39f8260fde955ab77ca7d7ab3e3a14f1b6",
+    "flow_model/causal_sps.py": "868490094662063a6fbaac6f5df4116bf13f60b7cd7432f1e07bcf046386e6fe",
+    "flow_model/constants.py": "0550ddeade96e62b2c3f68f78242e3991ad8c5b467dcebf425cbee55bbdab860",
+    "flow_model/energy.py": "e2770ebccfc339ecd52a72b62e7b5813fb44db5e8b789971402551efdbc9ca83",
+    "flow_model/forecast.py": "5ce1f6fbc5a8c61a1706bc5745ec00c80569d50f744ef94edc55e7a092f1fa82",
+    "flow_model/history.py": "2da4b38f687656f8d16aa812fe350748fb9a4c665df0b17bb363e69a0a8c2ad6",
+    "flow_model/interval_context.py": "2a30a799f2522d01ece463ddd71ab0c02916e1d351c564108aa74fb9ec2aba5a",
+    "flow_model/interval_head.py": "2827c787cc566c4f415f3a9a1871ed3c1c1d8b517e549fcfd0392fc0f37d13f8",
+    "flow_model/model.py": "05e62d391b6134f4d149b4b9222fb9aaa9c3f8a99575ecdc11d7bd0df6a69717",
+    "flow_model/moments.py": "e627f4262462fb48f909b15a6644abe863f2a8908571cee71816878f98b23fd6",
+    "flow_model/multiscale_interval.py": "cce3d9ae09502de7476f525f0b9ebe214c94834d53fe9a96877f90be140c8b3c",
+    "flow_model/sps.py": "f667c062dce4dd7bbc91c07701dda4850e86bcbc89d3e7e8a332c04d55580c86",
+    "flow_model/temporal_interval.py": "09e0ebd79906f8eed379db2d65cb1874b8ba0d6a1e3009bfa39549a5bf41aa40",
+    "flow_model/replay.py": "415e07ddb14e8ae32abe58c2ee544cd990e115f743785a07fc9a88de6859c1a5",
+    "flow_model/compiled_core.py": "67a736516d6d4ffa27336bbbe423430d91948ad5d37e6d1c3fde24753d38df75",
+    "flow_model/runtime.py": "33d8f7c4959aab13f7423b97d2e73aa3969001198d24fd1040ce11587dbad9c8"
+  }
+}

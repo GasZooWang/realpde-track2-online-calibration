@@ -1,0 +1,7673 @@
+{
+  "triton_poi_fused_clone_0": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_cat_1": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_add_clone_mul_2": {
+    "function": "triton__0d1d2d3d4d5",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_red_fused_mean_3": {
+    "function": "triton__0d1d2d3d4d5d6de7",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1024,
+    "grid_meta": {
+      "XBLOCK": 64,
+      "RBLOCK": 8
+    }
+  },
+  "triton_per_fused__to_copy_mean_4": {
+    "function": "triton__0d1d2d3d4de5",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2048,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused__to_copy_silu_5": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 1,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 32
+    }
+  },
+  "triton_poi_fused_sub_6": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_add_mul_7": {
+    "function": "triton__0d1d2e",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_cat_8": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_per_fused_add_clamp_detach_div_log_mean_mul_pow_sub_var_9": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14de15",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "i32"
+      ],
+      [
+        15,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_red_fused_mean_mul_var_10": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 512,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "RBLOCK": 16
+    }
+  },
+  "triton_per_fused_mean_mul_var_11": {
+    "function": "triton__0d1d23de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 2
+    }
+  },
+  "triton_per_fused_mul_var_12": {
+    "function": "triton__0d1d2d3de4",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_per_fused_detach_mean_mul_var_13": {
+    "function": "triton__0d1d2d34de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 2
+    }
+  },
+  "triton_poi_fused_add_clamp_exp_log_mean_mul_ne_sub_where_14": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14d15d16d17d18d19d20de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*i1"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "*fp32"
+      ],
+      [
+        15,
+        "*fp32"
+      ],
+      [
+        16,
+        "*fp32"
+      ],
+      [
+        17,
+        "*fp32"
+      ],
+      [
+        18,
+        "*fp32"
+      ],
+      [
+        19,
+        "*fp32"
+      ],
+      [
+        20,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_per_fused__to_copy_div_exp_le_mean_mul_15": {
+    "function": "triton__0d1d2d3d4d5de6",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 1024,
+    "grid_meta": {
+      "XBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_div_exp_le_mean_mul_16": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_add_clamp_div_exp_le_mean_mul_sub_17": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__softmax_18": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_clone_19": {
+    "function": "triton__0d1d2",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 1,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_per_fused_mean_mul_sub_20": {
+    "function": "triton__0d1d2d3d4d5d6de7",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 1024,
+    "grid_meta": {
+      "XBLOCK": 32
+    }
+  },
+  "triton_per_fused_add_constant_pad_nd_div_mean_mul_sqrt_sub_21": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10de11",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "i32"
+      ],
+      [
+        11,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 1024,
+    "grid_meta": {
+      "XBLOCK": 32
+    }
+  },
+  "triton_red_fused_mean_pow_22": {
+    "function": "triton__0d1d2d3d4de5de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 512,
+    "grid_meta": {
+      "XBLOCK": 64,
+      "RBLOCK": 8
+    }
+  },
+  "triton_per_fused_mean_pow_23": {
+    "function": "triton__0d1d2e3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 512,
+    "grid_meta": {
+      "XBLOCK": 32
+    }
+  },
+  "triton_per_fused_mean_pow_sqrt_24": {
+    "function": "triton__0d1d23",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1
+    }
+  },
+  "triton_poi_fused_add_clamp_min_div_gt_mean_mul_ones_like_pow_sqrt_where_25": {
+    "function": "triton__0d1d2d3e",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 1,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 64
+    }
+  },
+  "triton_poi_fused_clone_26": {
+    "function": "triton__0d1d2",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 1,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 2
+    }
+  },
+  "triton_poi_fused_minimum_mul_27": {
+    "function": "triton__0d1d2d3d4d5d6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_mul_sum_28": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_add_mul_29": {
+    "function": "triton__0d1d2d3d4de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_add_clamp_constant_pad_nd_copy_div_mean_mul_slice_scatter_sub_zeros_30": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14d15d16d1718de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "*fp32"
+      ],
+      [
+        15,
+        "*fp32"
+      ],
+      [
+        16,
+        "*fp32"
+      ],
+      [
+        17,
+        "i32"
+      ],
+      [
+        18,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024,
+      "YBLOCK": 1
+    }
+  },
+  "triton_per_fused_mean_31": {
+    "function": "triton__0d1d2de3",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_per_fused__to_copy_eq_mean_mul_pow_std_sub_32": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9de10",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "i32"
+      ],
+      [
+        10,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_per_fused_detach_mean_mul_pow_sub_33": {
+    "function": "triton__0d1d2d3d4de5",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 1024,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_mean_mul_sub_34": {
+    "function": "triton__0d1d2d3d4d5d6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_per_fused_add_clamp_detach_div_log_mean_mul_pow_35": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14d15de16",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "*fp32"
+      ],
+      [
+        15,
+        "i32"
+      ],
+      [
+        16,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 1024,
+    "grid_meta": {
+      "XBLOCK": 32
+    }
+  },
+  "triton_poi_fused_add_clamp_copy_exp_mean_mul_slice_scatter_36": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_add_mul_37": {
+    "function": "triton__0d1d2d3d4de5de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4608,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_replication_pad2d_38": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_avg_pool2d_39": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4224,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_abs_add_mul_ne_stack_sub_where_40": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14d15d16171819de20de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*i1"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "*fp32"
+      ],
+      [
+        15,
+        "*fp32"
+      ],
+      [
+        16,
+        "*fp32"
+      ],
+      [
+        17,
+        "*fp32"
+      ],
+      [
+        18,
+        "*fp32"
+      ],
+      [
+        19,
+        "i32"
+      ],
+      [
+        20,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4608,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_per_fused_abs_add_any_bitwise_or_clamp_min_div_mul_ne_sum_where_41": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13de14",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*i1"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*i1"
+      ],
+      [
+        13,
+        "i32"
+      ],
+      [
+        14,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 128,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_per_fused_std_42": {
+    "function": "triton__0d1d2de3",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_add_clamp_min_div_mul_stack_sub_43": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14d15d16d17d18d1920d2122232425262728293031d323334de35de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "*fp32"
+      ],
+      [
+        15,
+        "*fp32"
+      ],
+      [
+        16,
+        "*fp32"
+      ],
+      [
+        17,
+        "*fp32"
+      ],
+      [
+        18,
+        "*fp32"
+      ],
+      [
+        19,
+        "*fp32"
+      ],
+      [
+        20,
+        "*fp32"
+      ],
+      [
+        21,
+        "*fp32"
+      ],
+      [
+        22,
+        "*fp32"
+      ],
+      [
+        23,
+        "*fp32"
+      ],
+      [
+        24,
+        "*fp32"
+      ],
+      [
+        25,
+        "*fp32"
+      ],
+      [
+        26,
+        "*fp32"
+      ],
+      [
+        27,
+        "*fp32"
+      ],
+      [
+        28,
+        "*fp32"
+      ],
+      [
+        29,
+        "*fp32"
+      ],
+      [
+        30,
+        "*fp32"
+      ],
+      [
+        31,
+        "*fp32"
+      ],
+      [
+        32,
+        "*fp32"
+      ],
+      [
+        33,
+        "*fp32"
+      ],
+      [
+        34,
+        "i32"
+      ],
+      [
+        35,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 6144,
+    "grid_meta": {
+      "XBLOCK": 128,
+      "YBLOCK": 8
+    }
+  },
+  "triton_poi_fused_stack_44": {
+    "function": "triton__01de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_stack_45": {
+    "function": "triton__01de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_stack_46": {
+    "function": "triton__01de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_stack_47": {
+    "function": "triton__0d1de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_stack_48": {
+    "function": "triton__01de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_stack_49": {
+    "function": "triton__0d12de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 2048,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_replication_pad2d_50": {
+    "function": "triton__0d1d2d3d4d5d678e9",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "i32"
+      ],
+      [
+        9,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1032,
+    "grid_meta": {
+      "XBLOCK": 128,
+      "YBLOCK": 2
+    }
+  },
+  "triton_poi_fused_replication_pad2d_51": {
+    "function": "triton__0d1d2d3d456e7de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4352,
+    "grid_meta": {
+      "XBLOCK": 16,
+      "YBLOCK": 64
+    }
+  },
+  "triton_poi_fused_avg_pool2d_52": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_add_clamp_min_div_mul_stack_sub_53": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d101112de13",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "i32"
+      ],
+      [
+        13,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 6144,
+    "grid_meta": {
+      "XBLOCK": 2,
+      "YBLOCK": 512
+    }
+  },
+  "triton_per_fused__to_copy_eq_mean_std_54": {
+    "function": "triton__0d1d2d3d4d5d6de7",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_stack_55": {
+    "function": "triton__0d1d2d345de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused__to_copy_cat_56": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused__to_copy_silu_57": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_add_exp_mul_ne_sub_tanh_where_58": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14d15d16de17de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp16"
+      ],
+      [
+        6,
+        "*fp16"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "*fp32"
+      ],
+      [
+        15,
+        "*fp32"
+      ],
+      [
+        16,
+        "i32"
+      ],
+      [
+        17,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4608,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_per_fused_abs_add_any_bitwise_or_clamp_min_div_mul_ne_sum_where_59": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9de10",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*i1"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*i1"
+      ],
+      [
+        9,
+        "i32"
+      ],
+      [
+        10,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 128,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_cat_60": {
+    "function": "triton__0d1d2d3d4d5d6e7de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4224,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_cat_61": {
+    "function": "triton__0d1d2d3d4d5de6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4224,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_cat_62": {
+    "function": "triton__0d1d2d3d4d5d6d7d8de9e",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "i32"
+      ],
+      [
+        9,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2064,
+    "grid_meta": {
+      "XBLOCK": 1,
+      "YBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_cat_63": {
+    "function": "triton__0d1d2d34de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4104,
+    "grid_meta": {
+      "XBLOCK": 512,
+      "YBLOCK": 2
+    }
+  },
+  "triton_poi_fused_cat_64": {
+    "function": "triton__0d1d23de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4104,
+    "grid_meta": {
+      "XBLOCK": 512,
+      "YBLOCK": 2
+    }
+  },
+  "triton_poi_fused_cat_65": {
+    "function": "triton__0d1de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_cat_66": {
+    "function": "triton__0d1de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_full_like_67": {
+    "function": "triton__0d1de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_per_fused_mean_std_68": {
+    "function": "triton__0d1d2d3de4",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_cat_69": {
+    "function": "triton__0d1d2d3d4de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused__to_copy_cat_70": {
+    "function": "triton__0d1d2d34de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 8320,
+    "grid_meta": {
+      "XBLOCK": 64,
+      "YBLOCK": 64
+    }
+  },
+  "triton_poi_fused__to_copy_add_cat_convolution_mul_tanh_71": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4096,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_replication_pad2d_72": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_replication_pad2d_73": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_convolution_replication_pad2d_silu_74": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_replication_pad2d_75": {
+    "function": "triton__0d1d2d3d4d5de6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2560,
+    "grid_meta": {
+      "XBLOCK": 4,
+      "YBLOCK": 128
+    }
+  },
+  "triton_poi_fused_replication_pad2d_76": {
+    "function": "triton__0d1d2d3d4de5e",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4224,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_replication_pad2d_77": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2560,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_replication_pad2d_silu_78": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused__to_copy_avg_pool2d_silu_79": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_replication_pad2d_80": {
+    "function": "triton__0d1d2d34de5e",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1032,
+    "grid_meta": {
+      "XBLOCK": 128,
+      "YBLOCK": 2
+    }
+  },
+  "triton_poi_fused_replication_pad2d_81": {
+    "function": "triton__0d1d23de4de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4224,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_replication_pad2d_82": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2560,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_convolution_replication_pad2d_silu_83": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_add_avg_pool2d_convolution_replication_pad2d_silu_84": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_avg_pool2d_85": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_replication_pad2d_86": {
+    "function": "triton__0d1d2d34de5e",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1040,
+    "grid_meta": {
+      "XBLOCK": 64,
+      "YBLOCK": 4
+    }
+  },
+  "triton_poi_fused_replication_pad2d_87": {
+    "function": "triton__0d1d23de4de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1536,
+    "grid_meta": {
+      "XBLOCK": 2,
+      "YBLOCK": 128
+    }
+  },
+  "triton_poi_fused_replication_pad2d_88": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2560,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_convolution_replication_pad2d_silu_89": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_add_avg_pool2d_convolution_replication_pad2d_silu_90": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_avg_pool2d_91": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_replication_pad2d_92": {
+    "function": "triton__0d1d2d34de5e",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1056,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 8
+    }
+  },
+  "triton_poi_fused_replication_pad2d_93": {
+    "function": "triton__0d1d23de4de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1536,
+    "grid_meta": {
+      "XBLOCK": 2,
+      "YBLOCK": 128
+    }
+  },
+  "triton_poi_fused_replication_pad2d_94": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2560,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_convolution_replication_pad2d_silu_95": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_add_avg_pool2d_convolution_replication_pad2d_silu_96": {
+    "function": "triton__0d1d2d3d4de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused__to_copy__unsafe_index_add_arange_avg_pool2d_clamp_convolution_mul_replication_pad2d_rsub_silu_sub_97": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_replication_pad2d_98": {
+    "function": "triton__0d1d2d3de4de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1536,
+    "grid_meta": {
+      "XBLOCK": 2,
+      "YBLOCK": 128
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_replication_pad2d_silu_99": {
+    "function": "triton__0d1d2d3d4de5de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4608,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy__unsafe_index_add_arange_clamp_convolution_mul_replication_pad2d_rsub_silu_sub_100": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_replication_pad2d_101": {
+    "function": "triton__0d1d2d3de4de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2304,
+    "grid_meta": {
+      "XBLOCK": 8,
+      "YBLOCK": 64
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_replication_pad2d_silu_102": {
+    "function": "triton__0d1d2d3d4de5de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4608,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy__unsafe_index_add_arange_clamp_convolution_mul_replication_pad2d_rsub_silu_sub_103": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_per_fused_mean_var_104": {
+    "function": "triton__0d1d2d3d4de5",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_per_fused__to_copy_eq_mean_stack_var_105": {
+    "function": "triton__0d1d2d3d4d5d6d78de9",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "i32"
+      ],
+      [
+        9,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 1024,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_per_fused_var_106": {
+    "function": "triton__0d1d2d3d4d5d6de7",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_per_fused_mean_pow_sub_107": {
+    "function": "triton__0d1d2d3d4d5de6",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_replication_pad2d_108": {
+    "function": "triton__0d1d2e",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_avg_pool2d_109": {
+    "function": "triton__0d1d23de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4104,
+    "grid_meta": {
+      "XBLOCK": 512,
+      "YBLOCK": 2
+    }
+  },
+  "triton_per_fused_add_clamp_div_log_mean_mul_stack_sub_var_110": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14d15d16d17d18d19d20d21d22d23d242526d272829d3031323334353637383940de41",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "*fp32"
+      ],
+      [
+        15,
+        "*fp32"
+      ],
+      [
+        16,
+        "*fp32"
+      ],
+      [
+        17,
+        "*fp32"
+      ],
+      [
+        18,
+        "*fp32"
+      ],
+      [
+        19,
+        "*fp32"
+      ],
+      [
+        20,
+        "*fp32"
+      ],
+      [
+        21,
+        "*fp32"
+      ],
+      [
+        22,
+        "*fp32"
+      ],
+      [
+        23,
+        "*fp32"
+      ],
+      [
+        24,
+        "*fp32"
+      ],
+      [
+        25,
+        "*fp32"
+      ],
+      [
+        26,
+        "*fp32"
+      ],
+      [
+        27,
+        "*fp32"
+      ],
+      [
+        28,
+        "*fp32"
+      ],
+      [
+        29,
+        "*fp32"
+      ],
+      [
+        30,
+        "*fp32"
+      ],
+      [
+        31,
+        "*fp32"
+      ],
+      [
+        32,
+        "*fp32"
+      ],
+      [
+        33,
+        "*fp32"
+      ],
+      [
+        34,
+        "*fp32"
+      ],
+      [
+        35,
+        "*fp32"
+      ],
+      [
+        36,
+        "*fp32"
+      ],
+      [
+        37,
+        "*fp32"
+      ],
+      [
+        38,
+        "*fp32"
+      ],
+      [
+        39,
+        "*fp32"
+      ],
+      [
+        40,
+        "i32"
+      ],
+      [
+        41,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_stack_111": {
+    "function": "triton__0d1d2de3",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 6144,
+    "grid_meta": {
+      "XBLOCK": 2,
+      "YBLOCK": 512
+    }
+  },
+  "triton_poi_fused_stack_112": {
+    "function": "triton__0d12de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4224,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_stack_113": {
+    "function": "triton__01de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_stack_114": {
+    "function": "triton__01de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_stack_115": {
+    "function": "triton__0d12de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_stack_116": {
+    "function": "triton__01de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_clamp_117": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused__to_copy_silu_118": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_add_mul_sub_119": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11de12",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp16"
+      ],
+      [
+        7,
+        "*fp16"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "i32"
+      ],
+      [
+        12,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 6144,
+    "grid_meta": {
+      "XBLOCK": 2,
+      "YBLOCK": 512
+    }
+  },
+  "triton_poi_fused_copy_div_select_scatter_slice_scatter_sub_120": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_add_div_exp_mean_mul_sub_tanh_121": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14de15de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "i32"
+      ],
+      [
+        15,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4224,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_per_fused_add_mean_mul_var_122": {
+    "function": "triton__0d1d2d3d4d5d6de7",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_per_fused_mean_123": {
+    "function": "triton__0d1d2de3",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_add_div_mean_mul_sub_124": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_per_fused_mean_std_125": {
+    "function": "triton__0d1d2d3de4",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_per_fused_mean_mul_std_var_126": {
+    "function": "triton__0d1d2d3d4d5d6d7de8",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "i32"
+      ],
+      [
+        8,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused__to_copy_cat_127": {
+    "function": "triton__0d1d2d3d4d5d67de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp16"
+      ],
+      [
+        6,
+        "i32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 16640,
+    "grid_meta": {
+      "XBLOCK": 64,
+      "YBLOCK": 64
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_mul_tanh_128": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4096,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_replication_pad2d_129": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_replication_pad2d_130": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_convolution_replication_pad2d_silu_131": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_replication_pad2d_132": {
+    "function": "triton__0d1d2d3d4d5de6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1280,
+    "grid_meta": {
+      "XBLOCK": 4,
+      "YBLOCK": 64
+    }
+  },
+  "triton_poi_fused_replication_pad2d_133": {
+    "function": "triton__0d1d2d3d4de5e",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4224,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_replication_pad2d_134": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2560,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_avg_pool2d_silu_135": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_replication_pad2d_136": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_replication_pad2d_137": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_convolution_replication_pad2d_silu_138": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_replication_pad2d_139": {
+    "function": "triton__0d1d2d3d4d5de6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1032,
+    "grid_meta": {
+      "XBLOCK": 128,
+      "YBLOCK": 2
+    }
+  },
+  "triton_poi_fused_replication_pad2d_140": {
+    "function": "triton__0d1d2d3d4de5de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1280,
+    "grid_meta": {
+      "XBLOCK": 4,
+      "YBLOCK": 64
+    }
+  },
+  "triton_poi_fused_replication_pad2d_141": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2560,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_replication_pad2d_silu_142": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy__unsafe_index_add_arange_clamp_mul_rsub_sub_143": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_replication_pad2d_silu_144": {
+    "function": "triton__0d1d2d3d4d5d6de7de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 17408,
+    "grid_meta": {
+      "XBLOCK": 64,
+      "YBLOCK": 64
+    }
+  },
+  "triton_poi_fused__to_copy_silu_145": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 1,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 64
+    }
+  },
+  "triton_poi_fused_stack_146": {
+    "function": "triton__0d1d2d34de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1028,
+    "grid_meta": {
+      "XBLOCK": 256,
+      "YBLOCK": 1
+    }
+  },
+  "triton_poi_fused_add_147": {
+    "function": "triton__0d1d2",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 1,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1
+    }
+  },
+  "triton_poi_fused_add_div_mul_sub_148": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10de11",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "i32"
+      ],
+      [
+        11,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1536,
+    "grid_meta": {
+      "XBLOCK": 2,
+      "YBLOCK": 128
+    }
+  },
+  "triton_per_fused_mean_sub_var_149": {
+    "function": "triton__0d1d2d3de4",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_add_bitwise_and_clamp_min_div_gt_mean_mul_sqrt_sub_var_where_150": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_per_fused_add_mean_mul_151": {
+    "function": "triton__0d1d2d3d4de5",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_add_exp_mean_mul_sub_152": {
+    "function": "triton__0d1d2d3d4d5d6d7de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_copy_div_select_scatter_slice_scatter_sub_153": {
+    "function": "triton__0d1d2d3d4d5d6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_per_fused_mean_var_154": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11de12",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "i32"
+      ],
+      [
+        12,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_clone_155": {
+    "function": "triton__0d1d23de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 6144,
+    "grid_meta": {
+      "XBLOCK": 256,
+      "YBLOCK": 4
+    }
+  },
+  "triton_poi_fused_add_cat_mul_stack_sub_156": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14d15d16d17d18d19d20d21d22d23d24d25d26d2728de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "*fp32"
+      ],
+      [
+        15,
+        "*fp32"
+      ],
+      [
+        16,
+        "*fp32"
+      ],
+      [
+        17,
+        "*fp32"
+      ],
+      [
+        18,
+        "*fp32"
+      ],
+      [
+        19,
+        "*fp32"
+      ],
+      [
+        20,
+        "*fp32"
+      ],
+      [
+        21,
+        "*fp32"
+      ],
+      [
+        22,
+        "*fp32"
+      ],
+      [
+        23,
+        "*fp32"
+      ],
+      [
+        24,
+        "*fp32"
+      ],
+      [
+        25,
+        "*fp32"
+      ],
+      [
+        26,
+        "*fp32"
+      ],
+      [
+        27,
+        "i32"
+      ],
+      [
+        28,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1028,
+    "grid_meta": {
+      "XBLOCK": 256,
+      "YBLOCK": 1
+    }
+  },
+  "triton_poi_fused_cat_157": {
+    "function": "triton__0d1d23de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4112,
+    "grid_meta": {
+      "XBLOCK": 256,
+      "YBLOCK": 4
+    }
+  },
+  "triton_per_fused_mean_std_158": {
+    "function": "triton__0d1d2d3de4",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_cat_159": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_clamp_min_div_mean_sqrt_var_160": {
+    "function": "triton__0d1d2d3d4d56de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256,
+      "YBLOCK": 1
+    }
+  },
+  "triton_poi_fused__to_copy_cat_161": {
+    "function": "triton__0d1d2d3d45de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 8224,
+    "grid_meta": {
+      "XBLOCK": 16,
+      "YBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_162": {
+    "function": "triton__0d1d2d3d4d5d6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp16"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused__to_copy_cat_163": {
+    "function": "triton__0d1d2d3de4de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4608,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_add_cat_convolution_mul_silu_tanh_164": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "*fp16"
+      ],
+      [
+        6,
+        "*fp16"
+      ],
+      [
+        7,
+        "*fp16"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp16"
+      ],
+      [
+        10,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused__to_copy_convolution_silu_165": {
+    "function": "triton__0d1d2de3",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2304,
+    "grid_meta": {
+      "XBLOCK": 16,
+      "YBLOCK": 64
+    }
+  },
+  "triton_poi_fused__to_copy_convolution_silu_166": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_mul_silu_167": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused__to_copy_avg_pool2d_168": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_avg_pool2d_convolution_silu_169": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_avg_pool2d_convolution_silu_170": {
+    "function": "triton__0d1d2de3",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2304,
+    "grid_meta": {
+      "XBLOCK": 16,
+      "YBLOCK": 64
+    }
+  },
+  "triton_poi_fused__to_copy_add_avg_pool2d_convolution_mul_silu_171": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_avg_pool2d_convolution_silu_172": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_avg_pool2d_convolution_silu_173": {
+    "function": "triton__0d1d2de3",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2304,
+    "grid_meta": {
+      "XBLOCK": 16,
+      "YBLOCK": 64
+    }
+  },
+  "triton_poi_fused__to_copy_add_avg_pool2d_convolution_mul_silu_174": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_add_avg_pool2d_convolution_mul_silu_175": {
+    "function": "triton__0d1d2d3d4d5d6d7de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "*fp16"
+      ],
+      [
+        6,
+        "*fp16"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_add_176": {
+    "function": "triton__0d1d2d3de4de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1536,
+    "grid_meta": {
+      "XBLOCK": 64,
+      "YBLOCK": 4
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_mul_silu_177": {
+    "function": "triton__0d1d2d3d4de5de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4608,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy__unsafe_index_add_arange_clamp_convolution_mul_rsub_silu_sub_178": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_add_179": {
+    "function": "triton__0d1d2d3de4de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4608,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_mul_silu_180": {
+    "function": "triton__0d1d2d3d4d5d6d7de8de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "*fp16"
+      ],
+      [
+        6,
+        "*fp16"
+      ],
+      [
+        7,
+        "i32"
+      ],
+      [
+        8,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2560,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 16
+    }
+  },
+  "triton_poi_fused_add_mul_sub_tanh_181": {
+    "function": "triton__0d1d2d3d4d5d6d7d8de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp16"
+      ],
+      [
+        6,
+        "*fp16"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_mean_mul_sub_where_182": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_where_183": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9de10e",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp16"
+      ],
+      [
+        6,
+        "*fp16"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "i32"
+      ],
+      [
+        10,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4608,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_per_fused_clamp_min_div_mean_sqrt_var_184": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9de10",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "i32"
+      ],
+      [
+        10,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_per_fused_mean_var_185": {
+    "function": "triton__0d1d2d3de4",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 2,
+    "shared": 64,
+    "grid_meta": {
+      "XBLOCK": 8
+    }
+  },
+  "triton_poi_fused_mean_sub_186": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_mul_pow_sum_var_187": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_sum_var_188": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_avg_pool2d_clamp_min_sqrt_var_189": {
+    "function": "triton__0d1d2d3d4de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_add_avg_pool2d_div_log_190": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9d10d11d12d13d14de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*fp32"
+      ],
+      [
+        8,
+        "*fp32"
+      ],
+      [
+        9,
+        "*fp32"
+      ],
+      [
+        10,
+        "*fp32"
+      ],
+      [
+        11,
+        "*fp32"
+      ],
+      [
+        12,
+        "*fp32"
+      ],
+      [
+        13,
+        "*fp32"
+      ],
+      [
+        14,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_red_fused_cat_mean_191": {
+    "function": "triton__0d1d2d34de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ],
+      [
+        4,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 32,
+    "grid_meta": {
+      "XBLOCK": 1,
+      "RBLOCK": 2048
+    }
+  },
+  "triton_poi_fused_cat_192": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_clamp_min_sqrt_193": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_cat_194": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy_clamp_195": {
+    "function": "triton__0d1d23de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2176,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_clamp_convolution_silu_196": {
+    "function": "triton__0d1d2d3de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_replication_pad2d_197": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_replication_pad2d_198": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_replication_pad2d_199": {
+    "function": "triton__0d1d2d3d4d5de6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1152,
+    "grid_meta": {
+      "XBLOCK": 8,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_replication_pad2d_200": {
+    "function": "triton__0d1d2d3d4de5e",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4224,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_replication_pad2d_201": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2560,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused_avg_pool2d_202": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused_replication_pad2d_203": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_replication_pad2d_204": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_convolution_replication_pad2d_silu_205": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_replication_pad2d_206": {
+    "function": "triton__0d1d2d3d4d5de6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "i32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 1032,
+    "grid_meta": {
+      "XBLOCK": 128,
+      "YBLOCK": 2
+    }
+  },
+  "triton_poi_fused_replication_pad2d_207": {
+    "function": "triton__0d1d2d3d4de5de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "i32"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256,
+      "YBLOCK": 1
+    }
+  },
+  "triton_poi_fused_replication_pad2d_208": {
+    "function": "triton__0d1d2de3de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "i32"
+      ],
+      [
+        3,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 2560,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_replication_pad2d_silu_209": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp16"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 256
+    }
+  },
+  "triton_poi_fused__to_copy__unsafe_index_add_arange_clamp_mul_rsub_sub_210": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused__to_copy_add_convolution_replication_pad2d_silu_211": {
+    "function": "triton__0d1d2d3d4d5d6de7de",
+    "parameters": [
+      [
+        0,
+        "*fp16"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ],
+      [
+        7,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 4608,
+    "grid_meta": {
+      "XBLOCK": 32,
+      "YBLOCK": 32
+    }
+  },
+  "triton_poi_fused__to_copy_add_avg_pool2d_clamp_min_convolution_div_mul_replication_pad2d_silu_sum_tanh_var_212": {
+    "function": "triton__0d1d2d3d4d5de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp16"
+      ],
+      [
+        5,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 128
+    }
+  },
+  "triton_poi_fused_copy_div_select_scatter_slice_scatter_sub_213": {
+    "function": "triton__0d1d2d3d4d5d6d7de8",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "i32"
+      ],
+      [
+        8,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 5120,
+    "grid_meta": {
+      "XBLOCK": 4,
+      "YBLOCK": 256
+    }
+  },
+  "triton_poi_fused_add_mul_sub_214": {
+    "function": "triton__0d1d2d3d4d5d6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp16"
+      ],
+      [
+        3,
+        "*fp16"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_add_select_scatter_slice_scatter_215": {
+    "function": "triton__0d1d2de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "i32"
+      ]
+    ],
+    "warps": 4,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 1024
+    }
+  },
+  "triton_poi_fused_add_copy_mean_slice_scatter_216": {
+    "function": "triton__0d1d2d3d4d5d6de",
+    "parameters": [
+      [
+        0,
+        "*fp32"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*fp32"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 0,
+    "grid_meta": {
+      "XBLOCK": 512
+    }
+  },
+  "triton_poi_fused_bitwise_or_ne_217": {
+    "function": "triton__0d1d2d3d4d5d6d7d8d9de10de",
+    "parameters": [
+      [
+        0,
+        "*i1"
+      ],
+      [
+        1,
+        "*fp32"
+      ],
+      [
+        2,
+        "*fp32"
+      ],
+      [
+        3,
+        "*i1"
+      ],
+      [
+        4,
+        "*fp32"
+      ],
+      [
+        5,
+        "*fp32"
+      ],
+      [
+        6,
+        "*fp32"
+      ],
+      [
+        7,
+        "*i1"
+      ],
+      [
+        8,
+        "*i1"
+      ],
+      [
+        9,
+        "i32"
+      ],
+      [
+        10,
+        "i32"
+      ]
+    ],
+    "warps": 8,
+    "shared": 6144,
+    "grid_meta": {
+      "XBLOCK": 128,
+      "YBLOCK": 32
+    }
+  }
+}

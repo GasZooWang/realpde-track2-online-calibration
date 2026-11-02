@@ -1,0 +1,11 @@
+{
+  "name": "official RealPDE CNO initialization",
+  "repository": "AI4Science-WestlakeU/RealPDE-Competition-Data",
+  "revision": "3f445089ef513a6b6a04584ea7cbca4f5de3fc52",
+  "upstream_path": "baseline_checkpoints/sim_real_ft/sim_real_cno.pth",
+  "url": "https://huggingface.co/datasets/AI4Science-WestlakeU/RealPDE-Competition-Data/resolve/3f445089ef513a6b6a04584ea7cbca4f5de3fc52/baseline_checkpoints/sim_real_ft/sim_real_cno.pth",
+  "destination": "official_assets/sim_real_cno.pth",
+  "bytes": 32154928,
+  "sha256": "82e842928a25dbf5a74c4e336bdd28e89bcf40e68bb8cdd213547f1246af4f61",
+  "license": "CC-BY-NC-4.0"
+}

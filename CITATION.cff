@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research code, please cite this software and credit RealPDEBench and its data release separately."
+type: software
+title: "Test-Time Adaptation via Fast Online Calibration"
+authors:
+  - family-names: Wang
+    given-names: Junru
+    affiliation: "Xi'an Jiaotong University"
+  - family-names: Wang
+    given-names: Shuhong
+    affiliation: "Xi'an Jiaotong University"
+license: CC-BY-NC-4.0
+keywords:
+  - test-time adaptation
+  - online calibration
+  - prediction intervals
+  - scientific machine learning
+  - RealPDE
