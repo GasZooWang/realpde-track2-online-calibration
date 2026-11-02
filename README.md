@@ -8,17 +8,17 @@ This repository implements a streaming forecaster that adapts at test time witho
 
 ## Contents
 
-- [Test-Time Adaptation via Fast Online Calibration](#test-time-adaptation-via-fast-online-calibration)
-  - [Method](#method)
-  - [Results](#results)
-  - [Quick start](#quick-start)
-    - [1. Download the official initialization checkpoint](#1-download-the-official-initialization-checkpoint)
-    - [2. Prepare the training data](#2-prepare-the-training-data)
-    - [3. Train](#3-train)
-  - [Inference](#inference)
-  - [Repository layout](#repository-layout)
-  - [Citation](#citation)
-  - [License and attribution](#license-and-attribution)
+
+- [Method](#method)
+- [Results](#results)
+- [Quick start](#quick-start)
+  - [1. Download the official initialization checkpoint](#1-download-the-official-initialization-checkpoint)
+  - [2. Prepare the training data](#2-prepare-the-training-data)
+  - [3. Train](#3-train)
+- [Inference](#inference)
+- [Repository layout](#repository-layout)
+- [Citation](#citation)
+- [License and attribution](#license-and-attribution)
 
 ## Method
 
