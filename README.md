@@ -2,7 +2,7 @@
 
 **NeurIPS 2026 RealPDE Competition · Track 2 (LTTTA)**
 
-A streaming forecaster that adapts at test time without fine-tuning. A distilled convolutional predictor stays frozen, and every revealed target updates lightweight online calibrators in closed form. A conditional Gaussian mixture then turns the calibrated forecast into prediction intervals optimized for the interval score. **Final leaderboard (private test set):** Final-Top-10, total score **82.6271 ± 0.0280** (mean ± std over 15 official evaluations). See the [official results](https://realpdecompetition.github.io/results.html).
+A streaming forecaster that adapts at test time without fine-tuning. A distilled convolutional predictor stays frozen, and every revealed target updates lightweight online calibrators in closed form. A conditional Gaussian mixture then turns the calibrated forecast into prediction intervals optimized for the interval score. **Final leaderboard:** Final-Top-10, total score **82.6271 ± 0.0280** (mean ± std over 15 official evaluations). See the [official results](https://realpdecompetition.github.io/results.html).
 
 **Team:** Junru Wang and Shuhong Wang, Xi'an Jiaotong University  
 
@@ -31,7 +31,7 @@ A streaming forecaster that adapts at test time without fine-tuning. A distilled
 
 ## Results
 
-**Final leaderboard (private test set):** Final-Top-10, total score **82.6271 ± 0.0280** (mean ± std over 15 official evaluations). See the [official results](https://realpdecompetition.github.io/results.html).
+**Final leaderboard:** Final-Top-10, total score **82.6271 ± 0.0280**. See the [official results](https://realpdecompetition.github.io/results.html).
 
 **Development leaderboard** (Codabench submission 940980):
 
